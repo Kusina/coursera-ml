@@ -6,3 +6,4 @@
 - Week 5 - Neural Network Learning (machine-learning-ex4)
 - Week 6 - Regularized Linear Regression and Bias/Variance (machine-learning-ex5)
 - Week 7 - Support Vector Machines (machine-learning-ex6)
+- Week 8 - K-means Clustering and Principal Component Analysis
