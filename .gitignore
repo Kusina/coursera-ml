@@ -22,3 +22,7 @@ slprj/
 
 # Session info
 octave-workspace
+
+### IPythonNotebook ###
+# Temporary data
+.ipynb_checkpoints/
