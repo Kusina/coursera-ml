@@ -4,8 +4,7 @@ function J = compute_cost(X, y, theta)
 %   parameter for linear regression to fit the data points in X and y
 
 m = length(y);
-J = 0;
-J = (1/(2*m)) * sum((X*theta - y).^2);
+J = (1/(2*m)) * (X*theta - y)'*(X*theta - y);
 
 end
 
