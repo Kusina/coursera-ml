@@ -1,4 +1,4 @@
-function plotDecisionBoundary(theta, X, y)
+function plot_decision_boundary(theta, X, y)
 %PLOTDECISIONBOUNDARY Plots the data points X and y into a new figure with
 %the decision boundary defined by theta
 %   PLOTDECISIONBOUNDARY(theta, X,y) plots the data points with + for the 
@@ -8,8 +8,7 @@ function plotDecisionBoundary(theta, X, y)
 %      intercept.
 %   2) MxN, N>3 matrix, where the first column is all-ones
 
-% Plot Data
-plotData(X(:,2:3), y);
+plot_data(X(:,2:3), y);
 hold on
 
 if size(X, 2) <= 3
@@ -46,3 +45,4 @@ end
 hold off
 
 end
+
